@@ -45,7 +45,7 @@ h2 {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 h3 {
     margin: 0;
@@ -83,6 +83,7 @@ section article nav {
     color: white;
     border: 1px solid white;
     text-align: center;
+    text-decoration: none;
     width: 70px;
     padding: 12px 20px;
 }
@@ -91,12 +92,19 @@ section article div {
     font-size: 8em;
     color: rgba(255, 255, 255, 0.2);
     text-align: right;
-    padding-top: 40vh;
+    padding-top: 24vh;
 }
-nav:hover, div:hover {
-    background: red;
-    background-blend-mode: darken;
+a {
+    text-decoration: none;
+    color: white;
 }
+nav:hover{
+    background: #fff;
+  }
+nav:hover+div{
+    color: rgba(255, 255, 255, 0.5)
+  }
+
 section:nth-of-type(3) {
     margin: 0;
     padding: 0;
