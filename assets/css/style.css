@@ -57,6 +57,16 @@ h3 {
     padding: 0.5em 0;
     color: white;
 }
+span h3 {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.2em;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    padding: 0.5em 0;
+    color: white;
+}
 p {
     margin: 0;
     font-family: 'Work Sans', sans-serif;    font-size: 1em;
@@ -92,7 +102,7 @@ section article div {
     font-size: 8em;
     color: rgba(255, 255, 255, 0.2);
     text-align: right;
-    padding-top: 24vh;
+    padding-top: 42vh;
 }
 a {
     text-decoration: none;
@@ -141,6 +151,14 @@ section:nth-of-type(5) {
     height: 100vh;
     padding: 2em 4em 0;
 }
+section:nth-of-type(6) {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-blend-mode: multiply;
+    height: 100vh;
+    padding: 2em 4em 0;
+}
 section:nth-of-type(5) article h3 {
     color: black;
 }
@@ -153,3 +171,4 @@ section:nth-of-type(5) article nav {
 }
 section:nth-of-type(5) article div {
     color: #717171;
+}
